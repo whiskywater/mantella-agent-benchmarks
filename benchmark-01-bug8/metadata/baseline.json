@@ -11,7 +11,7 @@
   "first_solution_commit_subject": "Add Skyrim Equip action definition",
   "baseline_test_files": 55,
   "baseline_collected_tests": 683,
-  "baseline_archive_sha256": "52eab482f856846298fe3523a175eda8d4f826ac91c4463bf8b53833f041b154",
+  "baseline_archive_sha256": "dd30c5e6087435ff3732306944d343f68337eab810bfae052468b88c62fcd9e6",
   "python_expectation": "Python 3.11 environment with project test dependencies; the validation environment used a temporary tkinter shim because tkinter was unavailable.",
   "complete_test_command": "python -m pytest -q --disable-warnings",
   "focused_test_command": "python -m pytest tests/actions tests/conversation tests/llm/output -q",

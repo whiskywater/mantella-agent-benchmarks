@@ -1,0 +1,57 @@
+{
+  "captured_before_snapshot": true,
+  "captured_utc": "2026-08-15T00:00:00Z",
+  "repositories": {
+    "Mantella": {
+      "path": "/home/matthew/mantella-equip-github/Mantella",
+      "branch": "feature/travel-location-awareness",
+      "head": "4f9debc1c7a6c254c079e3dd161ceaf835fe91a1",
+      "upstream": "origin/feature/travel-location-awareness",
+      "staged_changes": [],
+      "unstaged_changes": [
+        "src/actions/function_manager.py", "src/characters_manager.py",
+        "src/conversation/context.py", "src/conversation/conversation.py",
+        "src/game_manager.py", "src/games/skyrim.py",
+        "src/http/communication_constants.py", "src/http/models.py",
+        "src/http/routes/mantella_route.py", "src/llm/message_thread.py",
+        "src/llm/output/actions_parser.py", "src/llm/output/change_character_parser.py",
+        "src/llm/output/clean_sentence_parser.py", "src/llm/output/sentence_accumulator.py",
+        "src/llm/sentence.py", "src/output_manager.py", "src/remember/remembering.py",
+        "src/remember/summaries.py", "src/tts/piper.py", "src/tts/synthesization_options.py",
+        "src/tts/ttsable.py", "tests/conftest.py", "tests/conversation/test_context.py",
+        "tests/llm/output/test_change_character_parser.py", "tests/llm/output/test_sentence_accumulator.py",
+        "tests/remember/test_summaries.py", "tests/test_characters_manager.py",
+        "tests/test_game_manager.py", "tests/test_output_manager.py", "tests/tts/test_piper.py"
+      ],
+      "untracked": [
+        "scripts/", "src/actions/action_authorization.py",
+        "tests/actions/test_action_authorization.py", "tests/conversation/test_conversation_lifecycle.py",
+        "tests/http/routes/test_conversation_restart_guard.py", "tests/integration/"
+      ],
+      "worktrees": [
+        "/home/matthew/mantella-equip-github/Mantella",
+        "/tmp/mantella-bug9-publish", "/tmp/mantella-pr743", "/tmp/mantella-pr744",
+        "/tmp/mantella-pr745", "/tmp/mantella-pr746", "/tmp/pr-mantella-life-clean"
+      ]
+    },
+    "Mantella-Spell": {
+      "path": "/home/matthew/mantella-equip-github/Mantella-Spell",
+      "branch": "feature/equip-action",
+      "head": "8c6120da9ea9dbe532447dce2b4ce96675e2f5b5",
+      "upstream": "origin/feature/equip-action",
+      "staged_changes": [],
+      "unstaged_changes": [
+        "Scripts/Source/MantellaAdvancedAction_Equip.psc",
+        "Scripts/Source/MantellaConstants.psc",
+        "Scripts/Source/MantellaConversation.psc",
+        "Scripts/Source/MantellaListenerScript.psc"
+      ],
+      "untracked": [],
+      "worktrees": [
+        "/home/matthew/mantella-equip-github/Mantella-Spell",
+        "/tmp/pr-spell-life-clean", "/tmp/spell-pr150", "/tmp/spell-pr151"
+      ]
+    }
+  },
+  "safety": "Snapshot was built with git archive from isolated history. No active worktree reset, restore, clean, stash, deployment, or PR operation was performed."
+}
